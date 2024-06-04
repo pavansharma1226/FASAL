@@ -5,7 +5,6 @@ const bcrypt = require('bcrypt');
 const generateToken = require('./jsonwebtokens');
 const Router = express.Router();
 
-
 Router.post('/register', async (req, res) => {
 
     let user = req.body; // it returns an object
