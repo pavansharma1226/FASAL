@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 // const passport = require('passport');
 const movieController = require("../controllers/movie_controller");
-const PlayList = require("../models/playList");
+const PlayList = require("../models/playlist");
 const axios = require("axios");
 
 // router.post('/playlist',movieController.playlist);

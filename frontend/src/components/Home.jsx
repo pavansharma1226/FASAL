@@ -37,7 +37,7 @@ const Home = () => {
   const fetchMovies = async () => {
     try {
       const res = await axios.get(
-        `http://www.omdbapi.com?s=${query}&apikey=9e835846`
+        `https://www.omdbapi.com?s=${query}&apikey=9e835846`
       );
       // console.log("Query Response : ", res);
       setMovies(res.data.Search);
